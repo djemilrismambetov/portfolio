@@ -65,10 +65,29 @@ body{
     font-weight: 700;
     font-size: 60px;
     line-height: 120px;
+    font-family: 'Merriweather';
 }
 .welcome-about{
     height: 330px;
     padding-left: 80px;
     padding-right: 860px;
     padding-top: 160px;
+}
+.welcome-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+}
+.welcome-button{
+    width: 220px;
+    height: 55px;
+    background: #BDAE82;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
 }
