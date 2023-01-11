@@ -91,3 +91,23 @@ body{
     line-height: 40px;
     text-align: center;
 }
+.welcome-button:hover{
+    color: white;
+}
+.section-skills{
+    height: 482px;
+}
+.skills-header{
+    padding-left: 370px;
+    padding-right: 370px;
+    padding-top: 100px;
+}
+.skills-title{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    color: #BDAE82;
+}
