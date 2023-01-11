@@ -14,11 +14,13 @@ body{
 .container{
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 0px;
 }
 .header-background{
     height: 90px;
     background-image: url(../assets/IMG/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px 910px;
 }
 .header-wrapper{
     display: flex;
@@ -52,9 +54,10 @@ body{
 .section-welcome{
     height: 820px;
     background-image: url(../assets/IMG/bg.jpg);
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: 1480px 910px;
+    background-position: center -90px;
+    background-size: 1440px 910px;
+    
 }
 .welcome-title{
     font-family: 'Merriweather';
