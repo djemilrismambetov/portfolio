@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    color:aliceblue;
+    background-color: black;
+    font-family: 'Merriweather', sans-serif;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header-background{
+    height: 90px;
+    background-image: url(../assets/IMG/bg.jpg);
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-wrapper{
+    display: flex;
+    align-items: center;
+}
+.logo:hover{
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    font-family: 'Inter', sans-serif;
+}
+.nav-links__item{
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(238, 238, 238);
+}
+.nav-links__launguage{
+    color: #BDAE82;
+}
+.nav-links__item:hover{
+    color: #BDAE82;
+    transition-duration: 0.5s;
+}
+.section-welcome{
+    height: 820px;
+    background-image: url(../assets/IMG/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1480px 910px;
+}
+.welcome-title{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 120px;
+}
