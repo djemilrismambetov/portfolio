@@ -66,3 +66,9 @@ body{
     font-size: 60px;
     line-height: 120px;
 }
+.welcome-about{
+    height: 330px;
+    padding-left: 80px;
+    padding-right: 860px;
+    padding-top: 160px;
+}
