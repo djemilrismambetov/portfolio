@@ -101,6 +101,7 @@ body{
     padding-left: 370px;
     padding-right: 370px;
     padding-top: 100px;
+    padding-bottom: 60px;
 }
 .skills-title{
     font-family: 'Merriweather';
@@ -110,4 +111,39 @@ body{
     line-height: 80px;
     text-align: center;
     color: #BDAE82;
+}
+.skills-wrapper{
+    height: 242px;
+    display: flex;
+}
+.skills-item{
+    display: flex;
+    height: 240px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.camera-logo{
+    width: 62px;
+    text-align: center;
+}
+.skills-item__title{
+    padding-top: 50px;
+    width: 280px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.skills-item__text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
 }
