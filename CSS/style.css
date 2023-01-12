@@ -81,6 +81,7 @@ body{
     line-height: 40px;
 }
 .welcome-button{
+    margin-top: 25px;
     width: 220px;
     height: 55px;
     background: #BDAE82;
@@ -127,6 +128,11 @@ body{
     width: 62px;
     text-align: center;
 }
+.skills-item__micro{
+    width: 32px;
+    left: 144px;
+    top: 0px;
+}
 .skills-item__title{
     padding-top: 50px;
     width: 280px;
@@ -146,4 +152,46 @@ body{
     line-height: 36px;
     text-align: center;
     color: #FFFFFF;
+}
+.section-portfolio{
+    margin-top: 100px;
+}
+.portfolio-title{
+    height: 80px;
+}
+.portfolio-header{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    color: #BDAE82;
+}
+.portfolio-btns{
+    height: 55px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.portfolio-btns__item{
+    width: 220px;
+    height: 55px;
+}
+.portfolio-btns__itemRactangles{
+    height: 55px;
+    top: 0px;
+    border: 2px solid #BDAE82;
+    border-radius: 0px;
+}
+.portfolio-btns__title{
+    padding-top: 7px;
+    padding-bottom: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    color: #BDAE82;
 }
