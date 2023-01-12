@@ -109,42 +109,46 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 80px;
     text-align: center;
     color: #BDAE82;
 }
 .skills-wrapper{
-    height: 242px;
     display: flex;
 }
 .skills-item{
     display: flex;
-    height: 240px;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    min-width: 320px;
 }
 .camera-logo{
     width: 62px;
-    text-align: center;
+    height: 50px;
 }
-.skills-item__micro{
+.video-logo{
+    width: 60px;
+}
+.image-logo{
+    width: 66px;
+}
+.micro-logo{
     width: 32px;
-    left: 144px;
-    top: 0px;
+    height: 50px;
 }
 .skills-item__title{
-    padding-top: 50px;
-    width: 280px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 40px;
     text-align: center;
     color: #FFFFFF;
+    margin-top: 50px;
+}
+.skills-item__p{
+    max-width: 280px;
 }
 .skills-item__text{
+    margin-top: 20px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
