@@ -173,6 +173,7 @@ body{
     margin-top: 60px;
     display: flex;
     justify-content: center;
+    gap: 5px;
 }
 .portfolio-btns__item{
     width: 220px;
@@ -194,4 +195,10 @@ body{
     font-size: 20px;
     text-align: center;
     color: #BDAE82;
+}
+.portfolio-btns__itemAutumn{
+    background-color: #BDAE82;
+}
+.portfolio-btns__titleAutumn{
+    color: black;
 }
