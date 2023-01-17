@@ -208,5 +208,35 @@ body{
     color: black;
 }
 .portfolio-pictures{
-
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.video-title{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.video-title__text{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #BDAE82;
+}
+.video-player{
+    height: 705px;
+    width: 1400px;
+}
+.video-player__background{
+    background-image: url(../assets/IMG/video-player.jpg);
+    background-repeat: no-repeat;
+    background-position: 20px 0px;
+    height: 705px;
+}
+.video-play_button{
+    text-align: center;
+    padding-left: 656px;
+    padding-top: 288px;
 }
