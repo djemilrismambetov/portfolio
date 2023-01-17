@@ -114,6 +114,7 @@ body{
 }
 .skills-wrapper{
     display: flex;
+    justify-content: center;
 }
 .skills-item{
     display: flex;
