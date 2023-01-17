@@ -348,3 +348,17 @@ body{
     background: rgba(0, 0, 0, 0.5);
     border: 2px solid #BDAE82;
 }
+.contacts-button-but{
+    width: 220px;
+    height: 55px;
+    background: #BDAE82;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+}
+footer{
+    height: 150px;
+}
