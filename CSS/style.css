@@ -362,3 +362,24 @@ body{
 footer{
     height: 150px;
 }
+.footer-data{
+    padding-top: 50px;
+    padding-left: 20px;
+    max-width: 182px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.year{
+    padding-left: 20px;
+}
+.organisation{
+    padding-left: 20px;
+}
+.footer-social-media{
+    margin-top: -50px;
+    padding-left: 1232px;
+}
