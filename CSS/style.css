@@ -319,8 +319,8 @@ body{
     background-repeat: no-repeat;
 }
 .contacts-container{
-    width: 445px;
-    height: 450px;
+    width: 450px;
+    height: 445px;
     padding-left: 970px;
     padding-top: 60px;
     font-family: 'Merriweather';
@@ -329,4 +329,22 @@ body{
     font-size: 40px;
     line-height: 80px;
     color: #BDAE82;
+}
+.contacts-form__email{
+    height: 50px;
+    width: 450px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid #BDAE82;
+}
+.contacts-form__phone{
+    height: 50px;
+    width: 450px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid #BDAE82;
+}
+.contacts-form__message{
+    height: 100px;
+    width: 450px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid #BDAE82;
 }
