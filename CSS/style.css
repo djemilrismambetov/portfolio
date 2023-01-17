@@ -318,3 +318,15 @@ body{
     background-image: url(../assets/IMG/contacts.jpg);
     background-repeat: no-repeat;
 }
+.contacts-container{
+    width: 445px;
+    height: 450px;
+    padding-left: 970px;
+    padding-top: 60px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80px;
+    color: #BDAE82;
+}
