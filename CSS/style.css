@@ -301,4 +301,11 @@ body{
     width: 220px;
     height: 55px;
     background: #BDAE82;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
 }
