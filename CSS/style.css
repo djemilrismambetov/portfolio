@@ -240,3 +240,16 @@ body{
     padding-left: 656px;
     padding-top: 288px;
 }
+.prices-title{
+    margin-top: 100px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    color: #BDAE82;
+}
+.price-items{
+    
+}
