@@ -240,6 +240,9 @@ body{
     padding-left: 656px;
     padding-top: 288px;
 }
+.section-prices{
+    height: 845px;
+}
 .prices-title{
     margin-top: 100px;
     font-family: 'Merriweather';
@@ -308,4 +311,11 @@ body{
     line-height: 40px;
     text-align: center;
     color: #000000;
+}
+.section-contacts{
+    margin-top: ;
+    height: 700px;
+    width: 1440px;
+    background-image: url(../assets/IMG/contacts.jpg);
+    background-repeat: no-repeat;
 }
